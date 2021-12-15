@@ -8,6 +8,6 @@ var saveBtn = row.insertCell(2);
 
 hour.innerHTML = "Time Goes Here";
 note.innerHTML = "Notes Go Here";
-saveBtn.innertHTML = "Button Goes Here";
+saveBtn.innerHTML = "Button Goes Here";
 }
 
