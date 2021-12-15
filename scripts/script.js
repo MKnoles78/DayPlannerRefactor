@@ -6,8 +6,10 @@ var hour = row.insertCell(0);
 var note = row.insertCell(1);
 var saveBtn = row.insertCell(2);
 
+row.id = 'plannerRow';
 hour.innerHTML = "Time Goes Here";
 hour.id = 'hour';
+hour.className = 'col-lg-1 hour-1';
 note.innerHTML = "Notes Go Here";
 note.id = 'notes';
 saveBtn.innerHTML = "Button Goes Here";

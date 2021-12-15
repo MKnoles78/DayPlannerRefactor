@@ -24,18 +24,17 @@ body {
 #hour {
     background-color: aqua;
     height: 5rem;
-    width: 5rem;
+    width: 10rem;
 
 }
 #notes {
-    background-color: red;
+    background-color: aqua;
     height: 5rem;
-    width: 15rem;
-
+    width: 25rem;
 }
 #saveBtn {
     background-color: green;
     height: 5rem;
-    width: 5rem;
+    width: 10rem;
 
 }
