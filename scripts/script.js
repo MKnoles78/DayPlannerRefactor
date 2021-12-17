@@ -1,5 +1,5 @@
 function myScheduleFunction() {
-
+var today = Date();
 
 var table = document.getElementById("mySchedule");
 var row = table.insertRow(0);
@@ -18,6 +18,6 @@ note.className = 'col-lg-10';
 saveBtn.innerHTML = "Button Goes Here";
 saveBtn.id = 'saveBtn';
 saveBtn.className = 'col-lg-1';
+document.getElementById('currentDay').innerHTML = today;
 }
 
-var today = Date();
