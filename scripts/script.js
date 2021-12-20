@@ -25,3 +25,11 @@ saveBtn.className = 'col-lg-1';
 
 }
 
+document.body.onload = addElement;
+
+function addElement () {
+    const hourRow = document.createElement("div");
+    hourRow.className = 'row';
+
+    hourRow.appendChild()
+}
