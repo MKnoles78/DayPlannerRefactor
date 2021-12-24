@@ -1,7 +1,9 @@
 var today = Date();
 document.getElementById('currentDay').innerHTML = today;
 const noteArea = document.createElement("textarea");
-
+const t = document.createTextNode("Notes go here now");
+noteArea.appendChild(t);
+document.body.appendChild(noteArea);
 
 
 function myScheduleFunction() {
