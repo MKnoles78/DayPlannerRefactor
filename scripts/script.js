@@ -1,6 +1,7 @@
 var today = Date();
 document.getElementById('currentDay').innerHTML = today;
-var noteArea = document.createElement("textarea");
+const noteArea = document.createElement("textarea");
+
 
 
 function myScheduleFunction() {
@@ -33,4 +34,3 @@ for (let i = 0; i <= 12; i++) {
     
 }
 
-document.tr.appendChild(noteArea);
