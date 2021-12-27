@@ -4,6 +4,10 @@ const noteArea = document.createElement("textarea");
 const t = document.createTextNode("Notes go here now");
 noteArea.appendChild(t);
 document.body.appendChild(noteArea);
+const timeArea = document.createElement("div");
+const time = document.createTextNode("9 AM");
+timeArea.appendChild(noteArea);
+
 
 
 function myScheduleFunction() {
